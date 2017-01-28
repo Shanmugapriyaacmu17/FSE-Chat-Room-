@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+#enter {
+	margin:15 px;
+	
+	padding:10px;
+	background:#C0C0C0;
+	width:500px;
+	border: 1px solid #000000;
+}
+
+#username{
+	font:12px arial; width:70%; height:30px;
+}
+
+	enter #submit1{
+	width:20%; height:40px; font:12px BoldArial;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to FSE Chat Room</title>
+<link rel="stylesheet" href="stylesheet2.css" type="text/css">
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="index.js"></script>
+    <script src="server.js"></script>
+
+</head>
+
+<body>
+<ul id="messagelist"></ul>
+<span id="typing"></span>
+
+<form id="form" action="" onsubmit="return submitfn();">
+
+<input id="username" type="hidden" value="Ppppr" />
+<input id="message" autocomplete="off" onkeyup="notifyTyping();" placeholder="Type your message here.." />
+<input id= "button" type="submit" value="Post" onclick="return submitfn();" >
+<input id= "button" type="button" value="Disconnect" onclick="return disconnectfn();" >
+
+</form>
+</body>
+</html>
